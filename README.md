@@ -17,6 +17,6 @@ For the next step we created the same custom LSTM RNN architecture. In one noteb
 
 For the purposes of evaluation, we used the testing data to evaluate each model and compare the performance on the following basis:
 
-1. Which model has a lower loss? _The closing price model had the lower loss at 0.0886 compared to the FNG model's loss of 0.1331_
+1. Which model has a lower loss? _The closing price model had the lower loss at 0.0443 compared to the FNG model's loss of 0.1591_
 2. Which model tracks the actual values better over time? _The closing price model tracks the actual values better over time_
-3. Which window size works best for the model?
+3. Which window size works best for the model? _Based on test runs, a smaller window size between 2 - 3 works better for the model_
